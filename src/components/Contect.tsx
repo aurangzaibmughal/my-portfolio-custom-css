@@ -46,7 +46,7 @@ const Contect = () => {
         
         
     </div>
-  )
+  );
 }
  
 export default Contect
