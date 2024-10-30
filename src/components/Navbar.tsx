@@ -4,7 +4,10 @@ import { TiThMenuOutline } from "react-icons/ti";
 const Navbar = () => {
   return (
     <div className='container pt-8' data-aos="fade-right">
-        <div className='flex justify-between items-center font-bold'>
+        <div className='flex justify-between items-center font-bold bg-green-700
+        
+        
+        '>
             <div className= 'text-xl font-bold'>AZM</div>
             <ul className='gap-14 lg:gap-10 hidden md:flex'>
                 <li className='menuLink'><a href='#hero'>Home</a></li>

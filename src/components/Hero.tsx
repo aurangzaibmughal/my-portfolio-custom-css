@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 
+
 const Hero = () => {
   return (
   
@@ -15,18 +16,19 @@ const Hero = () => {
             <div className='hidden lg:block'></div>
             <div className='text-[70px] sm:text [90px] font-bold leading-tight flex justify-center items-center '>
                 <div>
-                  <p data-aos="zoom-in-up">I'm</p>
+                  <p data-aos="zoom-in-up">I am</p>
                   <p data-aos="zoom-in-up">Aurangzaib</p>
                   <p data-aos="zoom-in-up">Mughal</p>  
                 </div>
             </div>
         </div>
      </div>
+   
     
 
 
 
-  )
+  );
 }
 
 export default Hero

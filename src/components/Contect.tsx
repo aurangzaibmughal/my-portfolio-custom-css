@@ -10,7 +10,7 @@ const Contect = () => {
             <div className='space-y-8'>
                 <h2 className='text-5xl'data-aos="zoom-in-up">Get in touch</h2>
                 <p className='text-gray-300 -[18px] pt-2'>
-                    If you have any questions or need help with something, don't hesitate to reach out.
+                    If you have any questions or need help with something donot hesitate to reach out.
                 </p>
                 <div className='flex gap-3 items-center'>
                     <TfiEmail size={28}/>aurangzaib.mughal@gmail.com
@@ -21,7 +21,7 @@ const Contect = () => {
                 </div>
         </div>
         <div className='space-y-8'data-aos="zoom-in-up">
-            <div className='flex flex-col gap-1'>
+            <div className='flex flex-col gap-1]'>
                 <label htmlFor='name'>Name</label>
                 <input type='text'  
                 className='h=[30px] bg-transparent border border-accent'
