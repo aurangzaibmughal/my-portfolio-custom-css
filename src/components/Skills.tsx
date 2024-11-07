@@ -20,7 +20,7 @@ const Skills = () => {
                     </div>
                   <div className='speace-y-'data-aos="zoom-in-up">
                     <h2>Next.js</h2>
-                    <h2>Tailwing</h2>
+                    <h2>Tailwind css</h2>
                     <h2>Node.js</h2>
                     </div>
                 </div>
