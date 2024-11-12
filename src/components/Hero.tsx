@@ -1,21 +1,22 @@
 import React from 'react'
 import Navbar from './Navbar'
+import "../app/styles/hero.css"
+
 
 
 const Hero = () => {
   return (
   
-    <div  data-aos="fade-right" id='hero' className= 'min-h-screen bg-no-repeat bg-[url(/portfoilo.jpg)] bg-cover'
-    
-    style={{backgroundSize:"35%", backgroundPosition: "left 100px top 200px "}}
-    >
-      
-    
-        <Navbar/>
-        <div className='contaner grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
-            <div className='hidden lg:block'></div>
-            <div className='text-[70px] sm:text [90px] font-bold leading-tight flex justify-center items-center '>
-                <div>
+    <div
+     id='hero' 
+     className="hero-container">
+
+    <Navbar/>
+      <div className="hero-content" >
+        <div className="hidden lg:block"></div>
+              
+          <div className="hero-text">
+            <div className='hero-msin' data-aos="zoom-in-up">
                   <p data-aos="zoom-in-up">I am</p>
                   <p data-aos="zoom-in-up">Aurangzaib</p>
                   <p data-aos="zoom-in-up">Mughal</p>  
@@ -23,12 +24,7 @@ const Hero = () => {
             </div>
         </div>
      </div>
-   
-    
-
-
-
-  );
-}
+   );
+};
 
 export default Hero

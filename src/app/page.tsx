@@ -4,7 +4,7 @@
 import Hero from "@/components/Hero";
 import Projects from "@/components/projects";
 import Skills from "@/components/Skills";
-import Contect from "@/components/Contect";
+import Contact from "@/components/Contact";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 import aos from "aos";
@@ -27,12 +27,12 @@ export default function Home() {
     aos.refresh()
     },[]);
   return (
-    <main className="sm:text-center">
+    <main>
       
       <Hero />
       <Projects />
       <Skills />
-      <Contect />
+      <Contact />
       <About />
       <Footer />
     </main>
